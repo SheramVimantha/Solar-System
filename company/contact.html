@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="Keywords" content="HTML,CSS" />
+    <meta name="description" content="..." />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/styeles.css" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <style>
+      body {
+        background-image: url(https://images.unsplash.com/photo-1570284613060-766c33850e00?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+      }
+      .navbar2 {
+        overflow: hidden;
+        background-color: #333;
+        position: fixed;
+        top: 0;
+        width: 100%;
+      }
+
+      .navbar2 a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+      }
+
+      .navbar2 a:hover {
+        background: #ddd;
+        color: black;
+      }
+      .navbar2 a.active2 {
+        background-color: #04aa6d;
+        color: white;
+      }
+      .cont {
+        display: grid;
+        grid-template: repeat(3, 15rem) / repeat(1, 15rem);
+        padding-top: 40px;
+        justify-items: center;
+        align-items: center;
+        justify-content: center;
+      }
+      .box {
+        width: 10rem;
+        height: 10rem;
+        background: gold;
+        color: white;
+        text-align: center;
+        /* font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",sans-serif; */
+        gap: 10px;
+        margin: 1rem;
+      }
+      .box img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      .name2 {
+        padding-top: 40px;
+        color: white;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="navbar2">
+      <a href="/index.html">Home Page</a>
+      <a href="/company/contact.html" class="active2">Contact</a>
+      <a href="/company/about.html">About</a>
+    </div>
+    <div class="name2"><h2>contact Us</h2></div>
+    S
+    <div class="cont">
+      <div class="box">
+        <img src="../images/phone.jpg" alt="" />
+        <p><a href="tel:+94701735479">+94 771 735 479</a></p>
+      </div>
+      <div class="box">
+        <img src="../images/phone.jpg" alt="" />
+        <p><a href="tel:+94701735479">+94 771735479</a></p>
+      </div>
+      <div class="box">
+        <img src="../images/email" alt="" />
+        <p><a href="mailto:sheramwimantha@gmai.com">mail usS</a></p>
+      </div>
+    </div>
+  </body>
+</html>

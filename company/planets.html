@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="Keywords" content="HTML,CSS" />
+    <meta name="description" content="..." />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/styeles.css" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <style>
+      html {
+        font-size: 62.5%;
+      }
+      body {
+        margin: 0px;
+        background-color: #0494ae;
+      }
+      .topnav {
+        overflow: hidden;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background-color: #333;
+      }
+
+      .topnav a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+      }
+
+      .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+
+      .topnav .icon {
+        display: none;
+      }
+
+      @media screen and (max-width: 910px) {
+        .topnav a:not(:first-child) {
+          display: none;
+        }
+        .topnav a.icon {
+          float: right;
+          display: block;
+        }
+      }
+
+      @media screen and (max-width: 910px) {
+        .topnav.responsive {
+          position: relative;
+        }
+        .topnav.responsive .icon {
+          position: absolute;
+          right: 0;
+          top: 0;
+        }
+        .topnav.responsive a {
+          float: none;
+          display: block;
+          text-align: left;
+        }
+      }
+
+      .tweet {
+        padding: 40px;
+        margin-top: 30px;
+      }
+      .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+      }
+      .avatar {
+        width: 20rem;
+        height: 20rem;
+        background-color: gold;
+        float: left;
+        margin-right: 0.5rem;
+      }
+      .avatar img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="topnav" id="myTopnav">
+      <a href="/index.html" class="active">Home</a>
+      <a href="#section-sun">Sun</a>
+      <a href="#section-mercury">Mercury</a>
+      <a href="#section-venus">Venus</a>
+      <a href="#section-earth">Earth</a>
+      <a href="#section-mars">Mars</a>
+      <a href="#section-juoiter">jupiter</a>
+      <a href="#section-saturn">Saturn</a>
+      <a href="#section-uranus">Uranus</a>
+      <a href="#section-neptune">Neptune</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+
+    <article class="tweet clearfix">
+      <div class="avatar">
+        <img src="../images/sun.jpg" alt="" />
+      </div>
+      <h2 id="section-sun">SUN</h2>
+      <a href="https://unsplash.com/s/photos/sun" target="_blank">more photo</a>
+      <p>
+        The Sun, at the heart of our solar system, is not a planet but a giant
+        ball of hot plasma, primarily composed of hydrogen and helium. It holds
+        a dominant 99.8% of the solar system's mass and generates an immense
+        amount of energy through nuclear fusion. Within its core, under extreme
+        pressure and temperature, hydrogen atoms are fused into helium atoms,
+        releasing tremendous amounts of light and heat in the process. This
+        energy, in the form of electromagnetic radiation, sustains life on Earth
+        and drives countless planetary processes. Understanding the Sun's
+        dynamics is not only crucial for appreciating its role in our solar
+        system but also for unraveling the mysteries of star formation and
+        evolution. The Sun's visible surface, known as the photosphere, is a
+        turbulent sea of hot gas called granules. These granules are constantly
+        rising and falling, a churning convection zone that transports heat from
+        the Sun's interior to the surface. Temperatures on the photosphere reach
+        a scorching 5,500°C (9,932°F), hot enough to ionize atoms, creating the
+        Sun's characteristic plasma state. Above the photosphere lies the
+        chromosphere, a thin layer of hot gas that appears red during solar
+        eclipses. This layer is the source of spectacular solar prominences,
+        giant loops of ionized gas that can erupt tens of thousands of
+        kilometers into the Sun's corona. The outermost layer of the Sun's
+        atmosphere is the corona, a vast extension of hot, tenuous plasma that
+        extends millions of kilometers into space. The corona is the source of
+        the solar wind, a stream of charged particles (primarily protons and
+        electrons) that constantly flows outward from the Sun. This solar wind
+        shapes the environment of the entire solar system, influencing planetary
+        atmospheres and auroras. During periods of high solar activity, the
+        corona can erupt in powerful solar flares, sudden bursts of intense
+        light and radiation that can disrupt communications systems and power
+        grids on Earth. These eruptions can also send massive clouds of charged
+        particles, known as coronal mass ejections, hurtling towards Earth,
+        potentially impacting satellites and causing geomagnetic storms. The
+        Sun's activity fluctuates in cycles, with periods of high activity
+        marked by increased solar flares and coronal mass ejections, followed by
+        periods of relative quiet. These cycles, known as solar cycles, last
+        roughly 11 years and can have a significant impact on Earth's climate
+        and space weather. Understanding these cycles and predicting solar
+        activity is crucial for mitigating the potential effects of solar storms
+        on our technological infrastructure. The Sun's life is a finite journey,
+        dictated by the ongoing process of nuclear fusion in its core. As
+        hydrogen fuel is gradually converted into helium, the Sun's core slowly
+        shrinks and heats up. This increase in core temperature triggers the
+        fusion of helium into heavier elements, a process that will eventually
+        lead to the Sun's transformation into a red giant. In this phase,
+        billions of years from now, the Sun will swell in size, engulfing
+        Mercury and Venus in its fiery embrace. As the outer layers of the Sun
+        expand, the core will contract and become even hotter, initiating the
+        burning of heavier elements. Ultimately, the Sun will shed its outer
+        layers, forming a beautiful planetary nebula, and its remaining core
+        will collapse into a white dwarf, a dense and hot stellar remnant.
+        Studying the Sun is a continuous endeavor, with ongoing missions like
+        NASA's Solar Dynamics Observatory (SDO) and the Parker Solar Probe
+        providing invaluable data about its activity and internal processes.
+        Understanding the Sun's dynamics is not just about safeguarding our
+        planet from solar storms but also about unlocking the secrets of stellar
+        evolution and the potential for life-supporting stars in distant
+        galaxies. The Sun serves as a Rosetta Stone for understanding stars,
+        providing insights into the birth, life, and death of these celestial
+        powerhouses that illuminate the universe.
+      </p>
+      <br />
+      <div class="avatar">
+        <img src="../images/mercury.jpeg" />
+      </div>
+      <h2 id="section-mercury">Mercury</h2>
+      <a href="https://unsplash.com/s/photos/Mercury" target="_blank"
+        >more photo</a
+      >
+      <p>
+        Mercury, the innermost planet in our solar system, presents a landscape
+        of stark contrasts. Despite being the smallest planet, only marginally
+        larger than Earth's Moon, its surface is heavily cratered, a testament
+        to billions of years of relentless bombardment by celestial objects. The
+        unforgiving environment on Mercury is defined by two extremes: scorching
+        days and frigid nights. Standing on the Mercurian surface would be a
+        visually overwhelming experience. The Sun would dominate the sky,
+        appearing three times wider and radiating an intensity of light eleven
+        times greater than that experienced on Earth. However, this proximity to
+        the Sun does not translate to the title of hottest planet. The culprit
+        for that distinction lies with neighboring Venus, whose dense atmosphere
+        acts as a heat trap. Mercury compensates for this lack of atmosphere
+        with its remarkable speed, completing an orbit around the Sun in a mere
+        88 Earth days, a feat that aptly reflects its namesake, the swift Roman
+        god Mercury. This rapid revolution creates a world of extremes.
+        Blistering days can melt rock at temperatures exceeding 800°C (430°C),
+        followed by frigid nights where temperatures plummet below -173°C
+        (-280°F). The lack of an atmosphere on Mercury allows for rapid heat
+        transfer, with the scorching daytime heat radiating back into space once
+        the Sun sets. However, recent discoveries suggest the presence of a
+        tenuous exosphere, a thin layer of atoms escaping the planet's weak
+        gravity. This exosphere is composed primarily of helium, hydrogen,
+        oxygen, sodium, and potassium, likely originating from the solar wind
+        and the decomposition of surface materials by the Sun's radiation. The
+        presence of water ice deposits within permanently shadowed craters at
+        the Mercurian poles remains an intriguing puzzle. These craters never
+        receive direct sunlight, creating frigid traps where temperatures can
+        dip as low as -180°C (-292°F), allowing for the condensation of water
+        vapor from the exosphere. Future missions to Mercury aim to unlock the
+        secrets of this enigmatic world, shedding light on its formation,
+        geological history, and the potential for resources like water ice.
+      </p>
+      <br />
+      <div class="avatar">
+        <img src="../images/Venus.webp" />
+      </div>
+      <h2 id="section-venus">Venus</h2>
+      <a href="https://unsplash.com/s/photos/Venus" target="_blank"
+        >more photo</a
+      >
+      <p>
+        Venus, Earth's closest planetary neighbor and the second planet from the
+        Sun, is a world of crushing heat and a swirling, opaque atmosphere.
+        Often referred to as Earth's "evil twin" due to its similar size and
+        structure, Venus boasts a thick atmosphere composed primarily of carbon
+        dioxide (around 96%). This dense atmosphere acts as a runaway
+        greenhouse, trapping solar radiation and transforming the surface into a
+        scorching inferno. Temperatures on Venus exceed 460°C (863°F) at the
+        surface, hot enough to melt lead. The relentless heat has erased most
+        geological features, leaving behind a landscape of smooth plains,
+        volcanoes, and deformed mountain ranges. Despite this hostile
+        environment, the Venusian atmosphere holds a tantalizing mystery. At an
+        altitude of around 30 miles (50 kilometers), conditions approach those
+        found on Earth's surface, with temperatures ranging from 86 to 158
+        degrees Fahrenheit (30 to 70 degrees Celsius) and similar atmospheric
+        pressure. This "temperate zone" has fueled speculation about the
+        possibility of microbial life adapted to these harsh conditions.
+        However, the presence of sulfuric acid rain and intense solar radiation
+        at these altitudes makes the existence of life highly improbable. Adding
+        to the intrigue, persistent dark streaks course through the upper
+        Venusian clouds, defying explanation despite enduring hurricane-force
+        winds. The composition of these streaks remains a subject of debate,
+        with possibilities including fine particles, ice crystals, or even a
+        chemical compound. The most intriguing, albeit least likely, explanation
+        centers on the potential for these streaks to harbor microbial lifeforms
+        adapted to the Venusian environment. Ring-shaped sulfur molecules
+        present in the atmosphere could provide a protective coating for such
+        life, shielding them from the harsh environment. While no definitive
+        proof of life on Venus exists, the lingering questions, coupled with the
+        planet's complex history of a vanished ocean and volcanic activity, make
+        a compelling case for further exploration. Venus, despite its
+        inhospitable surface, offers a wealth of scientific opportunities to
+        understand the dynamics of planetary atmospheres, the runaway greenhouse
+        effect, and the potential for life in extreme environments.
+      </p>
+      <br />
+      <div class="avatar">
+        <img src="../images/Earth.jpg" alt="" />
+      </div>
+      <h2 id="section-earth">Earth</h2>
+      <a href="https://unsplash.com/s/photos/Earth" target="_blank"
+        >more photo</a
+      >
+      <p>
+        Earth, the third planet from the Sun, stands out as a unique and vibrant
+        world teeming with life. Its size and location within the solar system
+        place it in the habitable zone, a region where liquid water, a crucial
+        ingredient for life as we know it, can exist on the surface. Earth's
+        atmosphere, composed primarily of nitrogen and oxygen, acts as a
+        protective shield, filtering harmful solar radiation and regulating
+        temperatures. The planet's spin on its axis creates a day-night cycle
+        that influences weather patterns and biological processes. Earth's
+        surface is a dynamic tapestry of oceans, continents, and polar ice caps.
+        The vast oceans, covering over 70% of the planet, play a critical role
+        in regulating climate and harbor a rich diversity of marine life. These
+        oceans are believed to have played a crucial role in the origin of life
+        on Earth billions of years ago. The continents, with their varied
+        landscapes, provide habitats for a multitude of terrestrial organisms.
+        From towering mountain ranges to sprawling deserts and lush rainforests,
+        Earth's continents offer a remarkable diversity of ecosystems. The polar
+        ice caps, primarily composed of water ice, act as giant reservoirs of
+        freshwater and play a vital role in regulating global sea levels. The
+        unique combination of factors on Earth, including its distance from the
+        Sun, its atmosphere, the presence of liquid water, and the complex
+        interplay between its geological and biological processes, has fostered
+        the development of a biosphere unlike any other known in the universe.
+        Earth's biosphere is a self-regulating system where life forms interact
+        with each other and with the environment, creating a web of
+        interdependence. From single-celled organisms to complex ecosystems,
+        Earth's biosphere thrives on the energy of the Sun, captured through
+        photosynthesis, and the cycling of nutrients through various biological
+        and geological processes. Understanding Earth's biosphere is crucial not
+        only for appreciating the rich tapestry of life on our planet but also
+        for informing the search for life elsewhere in the universe.
+      </p>
+      <br />
+      <div class="avatar">
+        <img src="../images/mars.jpg" alt="" />
+      </div>
+      <h2 id="section-mars">Mars</h2>
+      <a href="https://unsplash.com/s/photos/Mars" target="_blank"
+        >more photo</a
+      >
+      <p>
+        Mars, the fourth planet from the Sun, often referred to as the "Red
+        Planet" due to the iron oxide (rust) on its surface, holds a special
+        fascination for astronomers and planetary scientists. While its current
+        state is a cold, arid desert world with a thin atmosphere, evidence
+        suggests that Mars may have once been a much wetter and potentially more
+        habitable environment. Vast channels and past lakebeds hint at a bygone
+        era with flowing water. The polar ice caps hold potential reserves of
+        frozen water, and the planet's thin atmosphere offers clues about past
+        climate conditions. The exploration of Mars is driven by the fundamental
+        question: Did life ever exist on the Red Planet? Missions like the Mars
+        rovers Spirit and Opportunity, along with the ongoing Curiosity rover
+        mission, have been searching for signs of past microbial life and
+        potential biosignatures in Martian rocks and soils. These missions have
+        found evidence of past water on Mars, including ancient clay minerals
+        that form in the presence of water, and have detected methane gas in the
+        Martian atmosphere, although the source of this methane remains a
+        mystery. The presence of liquid water, a crucial ingredient for life as
+        we know it, is no longer in question. However, the current Martian
+        environment is extremely cold and dry, with a thin atmosphere that
+        offers little protection from harmful solar radiation. Future missions,
+        including the upcoming Mars Sample Return mission, aim to bring Martian
+        rock and soil samples back to Earth for detailed analysis in
+        laboratories equipped with more sophisticated instruments. Such analysis
+        could provide definitive answers about the potential for past life on
+        Mars and pave the way for future human exploration of the Red Planet.
+      </p>
+      <br />
+      <div class="avatar">
+        <img src="../images/Jupiter.webp" alt="" />
+      </div>
+      <h2 id="section-juoiter">jupiter</h2>
+      <a href="https://unsplash.com/s/photos/jupiter" target="_blank"
+        >more photo</a
+      >
+      <p>
+        Jupiter, the fifth planet from the Sun and the largest in our solar
+        system, is a true gas giant. Composed primarily of hydrogen and helium,
+        Jupiter lacks a solid surface but possesses a thick and swirling
+        atmosphere. This atmosphere displays a complex and colorful banded
+        structure, a result of the interaction between rising and sinking gases,
+        high winds, and internal heat. The most iconic feature of Jupiter's
+        atmosphere is the Great Red Spot, a persistent anticyclonic storm larger
+        than Earth that has been raging for centuries. Jupiter's powerful
+        gravity makes it a dominant force in the solar system, influencing the
+        orbits of asteroids and comets and shaping the trajectories of
+        spacecraft. Surrounding Jupiter is a vast system of rings, composed
+        primarily of dust and rock particles. Unlike the prominent rings of
+        Saturn, Jupiter's rings are fainter and less well-defined. However, they
+        offer insights into the formation and evolution of planetary rings and
+        the ongoing collisional processes within the Jovian system. Jupiter
+        boasts a retinue of moons, with the four largest – Io, Europa, Ganymede,
+        and Callisto – known as the Galilean moons. These moons exhibit diverse
+        geological features, making them prime targets in the search for
+        potential extraterrestrial life. Volcanic activity on Io, the most
+        geologically active body in the solar system, spews plumes of sulfur
+        dioxide that contribute to Jupiter's unique atmosphere. Europa, with its
+        icy surface and potential subsurface ocean, is a world of immense
+        interest for astrobiologists. Ganymede, the largest moon in the solar
+        system, is even larger than the planet Mercury and may harbor a
+        subsurface ocean beneath its icy crust. Callisto, the outermost of the
+        Galilean moons, displays a heavily cratered surface and may hold clues
+        to the early bombardment history of the outer solar system. The
+        exploration of Jupiter and its moons is helping scientists understand
+        the formation and evolution of giant planets, the dynamics of complex
+        planetary atmospheres, the potential for volcanic activity on icy moons,
+        and the possibility of subsurface oceans that could support life beyond
+        Earth.
+      </p>
+      <br />
+      <div class="avatar">
+        <img src="../images/Saturn.jpg" alt="" />
+      </div>
+      <h2 id="section-saturn">Saturn</h2>
+      <a href="https://unsplash.com/s/photos/Saturn" target="_blank"
+        >more photo</a
+      >
+      <p>
+        Saturn, the sixth planet from the Sun and the second-largest in our
+        solar system, is renowned for its majestic system of rings. These rings,
+        composed primarily of ice and dust particles, are the most elaborate in
+        the solar system, stretching outward for hundreds of thousands of
+        kilometers. Unlike Jupiter's faint rings, Saturn's rings are a
+        breathtaking spectacle, easily visible from Earth-based telescopes. The
+        rings are not a solid sheet of material but rather a collection of
+        billions of individual particles, ranging in size from pebbles to dust
+        motes. Similar to Jupiter, Saturn is a gas giant with a thick atmosphere
+        composed mainly of hydrogen and helium. However, unlike Jupiter's iconic
+        Great Red Spot, Saturn's atmosphere displays a more muted banded
+        structure. Saturn's powerful gravity influences the motion of objects
+        within its realm, including its numerous moons. With over 80 known
+        moons, Saturn boasts a diverse collection, ranging from the icy Titan,
+        shrouded in a thick nitrogen atmosphere, to the geologically active moon
+        Enceladus, which spews water vapor plumes from its icy surface. Titan,
+        the largest moon in the solar system besides Jupiter's Ganymede, is a
+        world of intrigue. Its thick atmosphere, composed primarily of nitrogen
+        with methane clouds, creates a surface environment unlike any other in
+        the solar system. Lakes and rivers of liquid hydrocarbons flow across
+        Titan's surface, hinting at a complex hydrological cycle. The
+        exploration of Saturn and its moons is helping scientists understand the
+        formation and evolution of planetary rings, the potential for life in
+        extreme environments like Titan's hydrocarbon lakes, and the possibility
+        of subsurface oceans on moons like Enceladus, which may harbor
+        conditions suitable for microbial life.
+      </p>
+      <br />
+      <div class="avatar">
+        <img src="../images/Uranus.jpg" alt="" />
+      </div>
+      <h2 id="section-uranus">Uranus</h2>
+      <a href="https://unsplash.com/s/photos/Uranus" target="_blank"
+        >more photo</a
+      >
+      <p>
+        Uranus, the seventh planet from the Sun, presents a unique appearance –
+        an ice giant tilted nearly sideways on its axis. This extreme tilt,
+        believed to be the result of a giant impact early in its history,
+        influences its seasons, creating dramatic variations in sunlight
+        exposure across different parts of the planet. During its long, 21-year
+        orbit around the Sun, Uranus experiences seasons that last for over two
+        decades. Uranus' atmosphere, composed primarily of hydrogen and helium
+        with traces of methane, gives the planet its distinctive blue-green hue.
+        Unlike Jupiter and Saturn, Uranus lacks a prominent internal heat
+        source, making its atmosphere surprisingly cold. The coldest recorded
+        temperature in the solar system, a frigid -224°C (-371°F), was measured
+        in the upper atmosphere of Uranus. The planet is encircled by a faint
+        system of rings, composed of dark, dusty particles. These rings are much
+        less prominent than Saturn's but offer insights into the collisional
+        processes within the Uranian system. Uranus also possesses a retinue of
+        moons, including five large ones discovered by William Herschel:
+        Miranda, Ariel, Umbriel, Titania, and Oberon. These moons exhibit
+        diverse geological features, including canyons, volcanoes, and evidence
+        of past internal oceans. Miranda, the smallest of the five major moons,
+        is the most geologically complex, with a chaotic surface unlike any
+        other moon in the solar system. The exploration of Uranus is helping
+        scientists understand the formation and evolution of ice giants, the
+        atmospheric dynamics of tilted planets, and the geological processes
+        shaping moons in the outer solar system.
+      </p>
+      <br />
+      <div class="avatar">
+        <img src="../images/Neptune.jpg" alt="" />
+      </div>
+      <h2 id="section-neptune">Neptune</h2>
+      <a href="https://unsplash.com/s/photos/Neptune" target="_blank"
+        >more photo</a
+      >
+      <p>
+        Neptune, the eighth and farthest planet from the Sun, reigns as the
+        outermost giant in our solar system. Despite its immense size, Neptune
+        is a world of extreme cold and fierce winds. Its atmosphere, composed
+        primarily of hydrogen and helium with traces of methane, is the
+        fastest-moving in the solar system, with winds reaching supersonic
+        speeds exceeding 1,100 miles per hour (1,800 kilometers per hour). This
+        rapid rotation, combined with the internal heat radiating from Neptune's
+        core, creates a dynamic and turbulent atmosphere. A prominent dark spot,
+        similar to Jupiter's Great Red Spot but smaller and more dynamic, has
+        been observed on Neptune. This dark spot is believed to be a giant
+        anticyclonic storm system, a swirling vortex that persists for months or
+        even years. Neptune is encircled by faint rings, composed of
+        micron-sized particles. These rings are even fainter than those of
+        Uranus and Saturn and were only discovered in the 1980s by NASA's
+        Voyager 2 spacecraft. The planet also has a retinue of moons, including
+        the large moon Triton, which is the only large moon in the solar system
+        with a retrograde orbit.
+      </p>
+      <br />
+    </article>
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
+  </body>
+</html>
