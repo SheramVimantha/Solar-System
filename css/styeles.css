@@ -15,6 +15,7 @@ body{
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 9999999999;
   }
 
  .navbar a {
@@ -35,8 +36,8 @@ body{
     background-color: #04AA6D;
     color: white;
   }
-  .name{
-    padding-top: 40px;
+  .title{
+    margin-top: 88px;
     color: white;
     text-align: center;
   }
@@ -49,7 +50,7 @@ body{
     justify-content: center;
 }
 .box{
-    width: 20rem;
+    width: 17rem;
     height: auto;
     color: white;
     text-align: center;
@@ -68,5 +69,24 @@ body{
       float: right;
       display: block;
     }
+  }
+
+  @media screen and (max-width: 768px) {
+    .container{
+      
+      grid-template-columns: auto auto; 
+    }
+  }
+  @media screen and (min-width: 425px )  and (max-width: 660px ){
+    .box{
+      width: 15rem;
+  }
+}
+  @media screen and (max-width: 425px) {
+    .container{
+      
+      grid-template-columns: auto;
+     
+  }
   }
 
